@@ -1,4 +1,4 @@
-const Aplly = require('../models/aplly.model')
+const Aplly = require('../models/apply.model')
 const createError = require('http-errors')
 
 
