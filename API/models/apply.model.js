@@ -4,27 +4,31 @@ const Schema = mongoose.Schema
 const apllySchema = new Schema({
     offerTitle: {
         type: String,
-        required: true
+        required: 'true'
     },
 
     business: {
         type: String,
-        required: true
+        required: 'true'
+    },
+
+    typeJob: {
+        type: String,
+        required: 'true'
     },
 
     description: {
         type: String,
-        required: true
+        required: 'true'
     },
 
     location: {
         type: String,
-        required: true
+        required: 'true'
     },
 
-    image: {
+    avatar: {
         type: String,
-        required: true
     }
 }, {
     timestamps: true

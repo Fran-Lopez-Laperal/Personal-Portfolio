@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const http = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "http://localhost:3001",
+  baseURL: process.env.REACT_APP_API_URL || "http://localhost:4001",
   withCredentials: true,
 });
 
@@ -20,6 +20,20 @@ http.interceptors.response.use(
   }
 );
 
-function getApplys () {
-    return http.get
+export function getApplies() {
+  return http.get('/api/applys')
+}
+
+export function newApply(apply) {
+  const data = new FormData()
+
+  data.append('offerTitle', apply.offerTitle)
+  data.append('typeJob', apply.typeJob)
+  data.append('business', apply.business)
+  data.append('description', apply.description)
+  data.append('location', apply.location)
+  data.append('avatar', apply.image)
+
+ 
+  return http.post('/api/applys', data)
 }

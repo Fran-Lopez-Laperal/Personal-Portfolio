@@ -1,19 +1,21 @@
 import './NavBar.css'
-
+import { Link } from 'react-router-dom'
 
 function NavBar() {
     return (
         <>
             <div className="nav-bar">
                 <div className='nav-container'>
-                    <h1>Fran</h1>
+                    <Link to='/'>
+                        <h1>Fran</h1>
+                    </Link>
                     <input type="checkbox" id="menu-bar" />
                     <label className="fa fa-bars" htmlFor="menu-bar"></label>
                     <nav className='menu'>
-                        <a href="/"><strong> Sobre mí</strong></a>
-                        <a href="/"><strong>Mi CV</strong></a>
-                        <a href="/"><strong>Datos académicos</strong></a>
-                        <a href="/"><strong>Algo más</strong></a>
+                        <Link to="/about-me"><strong>Sobre Mí</strong></Link>
+                        <Link to="/cv"><strong>Mi CV</strong></Link>
+                        <Link to="/academic-data"><strong>Datos académicos</strong></Link>
+                        <Link to="/my-proyects"><strong>Mis Proyectos</strong></Link>
                     </nav>
                 </div>
             </div>

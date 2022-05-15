@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const apply = require('../controllers/apply.controller')
+const upload = require('../config/multer.config')
 const createError = require('http-errors')
 
-
-router.post('/apply', apply.create)
+router.get('/applys', apply.list);
+router.post('/applys',upload.single('avatar'), apply.create);
 
 
 
