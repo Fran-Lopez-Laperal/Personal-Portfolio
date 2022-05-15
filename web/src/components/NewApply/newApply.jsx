@@ -19,9 +19,8 @@ function Apply() {
             location: e.target.location.value,
             avatar: e.target.avatar.files[0]
         })
-        console.log(e.value)
             .then(() => {
-                navigate('/')
+                navigate('/new-applies')
             })
             .catch(error => {
                 setError(error.response.data.message)
@@ -49,7 +48,7 @@ function Apply() {
 
                     <div className="">
                         Empresa
-                        <input type="text" name="bussines" />
+                        <input type="text" name="business" />
                         {error?.business}
                     </div>
 

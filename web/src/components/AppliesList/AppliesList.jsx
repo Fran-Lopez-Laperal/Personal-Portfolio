@@ -22,10 +22,18 @@ function AppliesList() {
     return (
 
         <>
-        <h1>OFERTAS DE EMPLEO APLICADAS</h1>
-            <div>
+            <h1>OFERTAS DE EMPLEO APLICADAS</h1>
+            <div className='apply-list'>
                 {applies.map(apply =>
-                    <h1>{apply.description}</h1>
+                    <div key={apply._id}>
+                        <div className='apply-list-apply'>
+                            <h1 >{apply.offerTitle}</h1>
+                            <div className='apply-list-img'>
+                                <img src={apply.avatar} alt={apply.avatar} />
+                            </div>
+                        </div>
+                        <h4>{apply.typeJob}</h4>
+                    </div>
                 )}
             </div>
         </>

@@ -29,6 +29,7 @@ const apllySchema = new Schema({
 
     avatar: {
         type: String,
+        
     }
 }, {
     timestamps: true

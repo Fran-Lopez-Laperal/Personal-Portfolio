@@ -1,16 +1,16 @@
 .animation-home{
     color: white;
     display: flex;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bolder;
     height: 40px;
     line-height: 40px;
-    width: 500px;
+    width: 700px;
 
     position: absolute;
-    bottom: 120px;
+    top: 700px;
     right: 0;
-    left: 0;
+    left: 7%;
     margin: auto;
 
     overflow: hidden;
@@ -63,12 +63,12 @@
 .main-img{
     display: block;
     position: absolute;
-    top:600px;
+    top:400px;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 40%;
+    width: 35%;
     -webkit-transition:  .10s ease-in-out;
     transition:  .8s ease-in-out;
     border-radius: 10px;

@@ -1,0 +1,14 @@
+.apply-list{
+    margin-top:100px
+}
+
+.apply-list-apply{
+    display: flex;
+    margin-top: 50px;
+}
+
+.apply-list-img img{
+    margin-right: -80px;
+    width: 100px;
+    max-width: 250px;
+}
