@@ -9,8 +9,8 @@ function Home() {
         <img className='main-img' src={mainImg} alt={mainImg} />
         </div>
             <div className="animation-home">
-                <ul>
-                    <li style={{color: 'black'}}>FrontEnd</li>
+                <ul className='animation'>
+                    <li  style={{color: 'black'}}>FrontEnd</li>
                     <li style={{color: 'blue'}}>BackEnd</li>
                     <li style={{color: 'red'}}>FullStack</li>
                 </ul>

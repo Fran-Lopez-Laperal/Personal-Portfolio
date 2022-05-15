@@ -2,6 +2,7 @@
     color: white;
     display: flex;
     font-size: 40px;
+    font-weight: bolder;
     height: 40px;
     line-height: 40px;
     width: 450px;
@@ -26,6 +27,33 @@
     margin: 0;
 }
 
+/* .animation li {
+    animation: fadeIn 3s
+}
+.animation li {
+    animation: fadeOut 3s
+}
+
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+} */
+
 .main-img-container{
     margin: auto;
     perspective: 1000px;
@@ -33,22 +61,24 @@
 }
 
 .main-img{
+    display: block;
     position: absolute;
     top:800px;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 30%;
-    transition: all 5s;
-    transform-style: preserve-3d;
-    border-radius: 30px;
+    width: 20%;
+    -webkit-transition:  .10s ease-in-out;
+    transition:  .8s ease-in-out;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px black;
 }
 
 
 .main-img:hover{
-    transform: rotateY(360deg);
+    -webkit-transform: rotate(360deg);
+    transform:  rotateY(360deg);
 }
 
 
@@ -63,7 +93,34 @@
 
     55%{margin-top: -80px;}
     80%{margin-top: -80px;}
+    
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
 
-    100%{margin-top: 0;}
 
+    100%{margin-top: 0%;}
+
+}
+
+
+@media(max-width:1024px){
+    .main-img{
+        top: 700px;
+        width: 50%;
+        left: 10%;
+    }
+}
+
+@media(max-width:1024px){
+    .animation-home{
+        font-size: 30px;
+        top: 500px;
+    }
+}
+
+
+@media(max-width:1024px){
+    .animation li{
+      margin-left: 45px;
+    }
 }
