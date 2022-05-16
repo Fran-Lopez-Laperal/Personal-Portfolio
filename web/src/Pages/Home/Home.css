@@ -7,7 +7,7 @@
     line-height: 40px;
     width: 700px;
 
-    position: absolute;
+
     top: 700px;
     right: 0;
     left: 7%;
@@ -26,6 +26,29 @@
 .animation-home p{
     margin: 0;
 }
+
+.img-mern{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img-mern img{
+    width: 30%;
+}
+
+.img-tecs  {
+    display: flex;
+    margin-bottom: 300px;
+    justify-content: center;
+  
+}
+.img-tecs img {
+    width: 90px;
+    height: 80px;
+    object-fit: contain;
+}
+
 
 /* .animation li {
     animation: fadeIn 3s
@@ -54,6 +77,10 @@
     }
 } */
 
+.main-container{
+    margin-bottom: 100px;
+}
+
 .main-img-container{
     margin: auto;
     perspective: 1000px;
@@ -61,14 +88,12 @@
 }
 
 .main-img{
-    display: block;
     position: absolute;
-    top:400px;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 35%;
+    width: 15%;
     -webkit-transition:  .10s ease-in-out;
     transition:  .8s ease-in-out;
     border-radius: 10px;
@@ -105,21 +130,39 @@
 
 @media(max-width:1024px){
     .main-img{
-        top: 600px;
-        width: 300px;
+        width: 100px;
     }
 }
 
 @media(max-width:1024px){
     .animation-home{
-        font-size: 35px;
-        top: 800px;
+        font-size: 25px;
+        width: 300px;
+        margin-top: 40px;
     }
 }
 
+@media(max-width:1024px){
+    .img-mern{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 35px;
+    }
+}
+@media(max-width:1024px){
+    .img-tecs img{
+        width: 50%;
+        height: 50px;
+        margin-bottom: 10px;
+        max-width: 100px;
+        object-fit: contain;
+    }
+}
 
 @media(max-width:1024px){
-    .animation li{
-      margin-left: 40px;
+    .img-tecs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
     }
 }
