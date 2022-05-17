@@ -145,20 +145,21 @@
     .main-container{
         display: flex;
         flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: -70px;
     }
 }
 
 @media(max-width:1024px){
     .main-img{
-        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-top: 30px;
         width: 150px;
     }
 }
 
 @media (max-width:1024px) {
     .main-img-container{
-        margin-top: 35px;
+        margin-top: 85px;
     }
 }
 
@@ -166,21 +167,19 @@
     .animation-home{
         font-size: 25px;
         width: 300px;
-        margin-top: 20px;
     }
 }
 
 @media(max-width:1024px){
     .img-mern img{
-        width: 65%;
+        width: 45%;
         margin-bottom: 10px;
     }
 }
 @media(max-width:1024px){
     .img-tecs img{
-        width: 60%;
-        height: 70px;
-        margin-bottom: 10px;
+        width: 50%;
+        height: 60px;
         max-width: 100px;
         object-fit: contain;
     }
@@ -196,7 +195,7 @@
 
 @media(max-width:1024px) {
     .social-media{
-    bottom: 350px;
+    bottom: 400px;
     left: 140px;
     width: 100px;
     }

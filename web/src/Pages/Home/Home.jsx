@@ -20,11 +20,11 @@ function Home() {
                 <img className='img-mern' src={mern} alt={mern} />
             </div>
             <div className='img-tecs'>
-                <img src={postman} alt={postman} />
                 <img src={css} alt={css} />
+                <img src={js} alt={js} />
                 <img src={html} alt={html} />
                 <img src={jest} alt={jest} />
-                <img src={js} alt={js} />
+                <img src={postman} alt={postman} />
                 <img src={docker} alt={docker} />
                 <img src={webpack} alt={webpack} />
             </div>
