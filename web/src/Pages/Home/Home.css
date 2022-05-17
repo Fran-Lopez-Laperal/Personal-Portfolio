@@ -100,9 +100,9 @@
 }
 
 .social-media{
-    bottom: 150px;
+    bottom: 100px;
     display: flex;
-    left: 700px;
+    left: 800px;
     justify-content: space-between;
     position: absolute;
     width: 200px;
@@ -157,7 +157,7 @@
 
 @media (max-width:1024px) {
     .main-img-container{
-        margin-top: 5px;
+        margin-top: 35px;
     }
 }
 
@@ -171,14 +171,14 @@
 
 @media(max-width:1024px){
     .img-mern img{
-        width: 70%;
+        width: 65%;
         margin-bottom: 10px;
     }
 }
 @media(max-width:1024px){
     .img-tecs img{
-        width: 50%;
-        height: 50px;
+        width: 60%;
+        height: 70px;
         margin-bottom: 10px;
         max-width: 100px;
         object-fit: contain;
@@ -189,5 +189,21 @@
     .img-tecs {
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+
+@media(max-width:1024px) {
+    .social-media{
+    bottom: 350px;
+    left: 140px;
+    width: 100px;
+    }
+}
+
+@media(max-width:1024px) {
+    .social-media img{
+        width: 40px;
+        height: 40px;
     }
 }
