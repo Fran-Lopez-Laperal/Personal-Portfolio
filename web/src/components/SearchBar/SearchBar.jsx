@@ -13,7 +13,7 @@ function SearchBar () {
     }
 
     return(
-        <div>
+        <div className='search-bar'>
             <form className='form-search' onSubmit={handleSearch}>
                 <input className='input-search' name='search' type="search" placeholder='Busca por categoria'/>
                 <button className='input-' type='submit'>Buscar</button>

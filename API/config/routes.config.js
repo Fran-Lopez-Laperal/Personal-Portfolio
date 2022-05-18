@@ -4,8 +4,9 @@ const apply = require('../controllers/apply.controller')
 const upload = require('../config/multer.config')
 const createError = require('http-errors')
 
-router.get('/applys', apply.list);
-router.post('/applys', upload.single('avatar'), apply.create);
+router.get('/applies', apply.list);
+router.post('/applies', upload.single('avatar'), apply.create);
+router.get('/applies/:id', apply.detail);
 
 
 
