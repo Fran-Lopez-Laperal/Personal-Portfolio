@@ -28,6 +28,14 @@ function Home() {
                 <img src={docker} alt={docker} />
                 <img src={webpack} alt={webpack} />
             </div>
+            <div className='social-media'>
+                <a href='https://github.com/franlopezhack'>
+                <img className='social-media-1' src={github} alt={github} />
+                </a>                
+                <a href='http://www.linkedin.com/in/francisco-josé-lópez-laperal'>
+                    <img className='social-media-2' src={linkedin} alt={linkedin} />
+                </a>
+            </div>
             <div className='main-container'>
                 <div className='main-img-container'>
                     <img className='main-img' src={mainImg} alt={mainImg} />
@@ -40,14 +48,6 @@ function Home() {
                     </ul>
                     <p>Development</p>
                 </div>
-            </div>
-            <div className='social-media'>
-                <a href='https://github.com/franlopezhack'>
-                <img className='social-media-1' src={github} alt={github} />
-                </a>                
-                <a href='http://www.linkedin.com/in/francisco-josé-lópez-laperal'>
-                    <img className='social-media-2' src={linkedin} alt={linkedin} />
-                </a>
             </div>
         </div>
     )
