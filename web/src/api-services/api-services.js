@@ -20,8 +20,8 @@ http.interceptors.response.use(
   }
 );
 
-export function getApplies() {
-  return http.get('/api/applys')
+export function getApplies(category) {
+  return http.get('/api/applys', {params: {category}})
 }
 
 export function newApply(apply) {

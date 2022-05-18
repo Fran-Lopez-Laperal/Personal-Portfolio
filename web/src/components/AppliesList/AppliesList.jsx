@@ -1,17 +1,22 @@
 import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router'
 import { getApplies } from '../../api-services/api-services'
+import SearchBar from '../SearchBar/SearchBar'
 import './AppliesList.css'
 
 function AppliesList() {
 
     const [applies, setApplies] = useState(null)
+    const {search} = useLocation()
 
     useEffect(() => {
-        getApplies()
+        const url = new URLSearchParams(search)
+        const category = url.get('category')
+        getApplies(category)
             .then((applies) => {
                 setApplies(applies)
             })
-    }, [])
+    }, [search])
 
     if (!applies) {
         return null
@@ -36,6 +41,7 @@ function AppliesList() {
                     </div>
                 )}
             </div>
+            <SearchBar/>
         </>
     )
 }

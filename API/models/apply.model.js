@@ -35,11 +35,13 @@ const apllySchema = new Schema({
     searchWeb: {
         type: String,
         required: 'true'
+        //Linkedin, Glassdor, etc
     },
 
     category: {
         type: String,
         required: 'true'
+        //empresas, consultoras, ofertas
     },
 
 }, {
