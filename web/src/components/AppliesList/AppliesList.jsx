@@ -7,7 +7,7 @@ import './AppliesList.css'
 function AppliesList() {
 
     const [applies, setApplies] = useState(null)
-    const {search} = useLocation()
+    const { search } = useLocation()
 
     useEffect(() => {
         const url = new URLSearchParams(search)
@@ -27,8 +27,10 @@ function AppliesList() {
     return (
 
         <>
-            <h1>OFERTAS DE EMPLEO APLICADAS</h1>
+
             <div className='apply-list'>
+            <SearchBar />
+                <h1>Datos de búsqueda de empleo</h1>
                 {applies.map(apply =>
                     <div key={apply._id}>
                         <div className='apply-list-apply'>
@@ -41,7 +43,6 @@ function AppliesList() {
                     </div>
                 )}
             </div>
-            <SearchBar/>
         </>
     )
 }

@@ -14,10 +14,9 @@ function SearchBar () {
 
     return(
         <div>
-            <h1>Search Bar</h1>
-            <form onSubmit={handleSearch}>
-                <input name='search' type="search" />
-                <button type='submit'>Buscar</button>
+            <form className='form-search' onSubmit={handleSearch}>
+                <input className='input-search' name='search' type="search" placeholder='Busca por categoria'/>
+                <button className='input-' type='submit'>Buscar</button>
             </form>
         </div>
     )
