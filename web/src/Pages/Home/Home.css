@@ -106,21 +106,15 @@
     left: 800px;
     justify-content: space-between;
     position: absolute;
-    width: 200px;
+    width: 150px;
 }
 
 .social-media img{
 
-    height: 70px;
+    height: 50px;
     object-fit: cover;
-    width: 70px;
+    width: 50px;
 }
-
-/* .social-media-1{
-    margin-right: 100px;
-} */
-
-
 
 @keyframes change {
     
@@ -195,9 +189,11 @@
 
 @media(max-width:1024px) {
     .social-media{
-    bottom: 420px;
-    left: 165px;
+    position:static;
     width: 100px;
+    margin-bottom:-100px ;
+    margin-top: 20px;
+    margin-left: 145px;
     }
 }
 
