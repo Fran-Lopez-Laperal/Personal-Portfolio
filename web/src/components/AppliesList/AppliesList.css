@@ -1,14 +1,33 @@
 .apply-list{
-    margin-top:100px
+    margin-top:100px;
+    padding: 50px;
 }
 
-.apply-list-apply{
-    display: flex;
+.apply-list h1 {
+    margin-bottom: 50px;
     margin-top: 50px;
 }
 
-.apply-list-img img{
-    margin-right: -80px;
+.apply-card{
+    color: white;
+    display:inline-block;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    width: 340px;
+}
+
+
+.apply-card-detail{
+    display: flex;
+}
+
+.apply-card img{
     width: 100px;
-    max-width: 250px;
+    height: 100px;
+}
+
+.apply-card-info{
+    margin-left: 10px;
+    width: 100%;
+    max-width: 350px;
 }
