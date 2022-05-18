@@ -29,10 +29,27 @@ const apllySchema = new Schema({
 
     avatar: {
         type: String,
-        
-    }
+
+    },
+
+    searchWeb: {
+        type: String,
+        required: 'true'
+    },
+
+    category: {
+        type: String,
+        required: 'true'
+    },
+
 }, {
-    timestamps: true
+    timestamps: true,
+
+    toJSON: {
+        transform: (doc, apply) => {
+            apply.id = doc._id
+        }
+    }
 });
 
 
