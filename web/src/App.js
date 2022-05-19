@@ -9,6 +9,7 @@ import AbouteMe from './components/AbouteMe/AbouteMe';
 import MyPoyects from './components/MyProyects/MyProyects';
 import AcademicData from './components/AcademicData/AcademicData';
 import Footer from './components/Footer/Footer';
+import EmailSend from './components/EmailSend/EmailSend';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/about-me' element={<AbouteMe />} />
           <Route path='/applies-list' element={<AppliesList />} />
           <Route path='/new-applies' element={<Apply />} />
+          <Route path='/email' element={<EmailSend/>}/>
         </Routes>
       </div>
       <Footer />
