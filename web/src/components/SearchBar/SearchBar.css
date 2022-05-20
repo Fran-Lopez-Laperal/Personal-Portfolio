@@ -19,3 +19,21 @@
     margin-left: 20px;
     width: 70px;
 }
+
+@media(max-width:1024px){
+    .input-search{
+        border: none;
+        margin-top: 10px;
+        border-radius: 5px;
+        margin-left: -100px;
+        height: 30px;
+        width: 150px;
+    }
+}
+
+@media(max-width:1024px){
+    .form-search button {
+        margin-left: 5px;
+        width: 60px;
+    }
+}

@@ -10,6 +10,7 @@ import docker from '../../assets/images/docker-main.png'
 import webpack from '../../assets/images/webpack.png'
 import github from '../../assets/images/github.png'
 import linkedin from '../../assets/images/linkedin.png'
+import Curriculum from '../../components/Curriculum/Curriculum'
 
 
 
@@ -30,11 +31,14 @@ function Home() {
             </div>
             <div className='social-media'>
                 <a href='https://github.com/franlopezhack'>
-                <img className='social-media-1' src={github} alt={github} />
-                </a>                
+                    <img className='social-media-1' src={github} alt={github} />
+                </a>
                 <a href='http://www.linkedin.com/in/francisco-josé-lópez-laperal'>
                     <img className='social-media-2' src={linkedin} alt={linkedin} />
                 </a>
+                <div>
+                <Curriculum />
+            </div>
             </div>
             <div className='main-container'>
                 <div className='main-img-container'>
@@ -48,6 +52,7 @@ function Home() {
                     </ul>
                     <p>Development</p>
                 </div>
+
             </div>
         </div>
     )

@@ -1,7 +1,6 @@
 .apply-list{
-   
     margin-top:100px;
-    padding: 50px;
+    padding: 30px;
 }
 
 .apply-list h1 {
@@ -31,4 +30,52 @@
     margin-left: 10px;
     width: 100%;
     max-width: 350px;
+}
+
+@media(max-width:1024px){
+    .apply-list {
+     margin-top: 55px;
+     background-color: #fff7ed;
+    } 
+}
+
+@media(max-width:1024px){
+    .apply-list h1 {
+     font-size: 15px;
+    } 
+}
+
+@media(max-width:1024px){
+  
+    .apply-card img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .apply-card-info{
+        width: 100%;
+        max-width: 250px;
+    }
+
+}
+
+@media(max-width:1024px){
+    .apply-card-info h3 {
+        font-size: 15px;
+        width: 210px;
+    }
+    .apply-card-info h4 {
+        font-size: 12px;
+    }
+    .apply-card-info h5 {
+        font-size: 12px;
+    }
+}
+@media(max-width:1024px){
+    .apply-card{
+        color: white;
+        display: flex;
+        margin-left: 20px;
+        width: 220px;
+    }
 }

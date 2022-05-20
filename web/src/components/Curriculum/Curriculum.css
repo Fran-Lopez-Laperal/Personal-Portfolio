@@ -1,0 +1,18 @@
+.cv{
+    display: flex;
+    margin-top: 60px;
+    margin-left: -90px;
+}
+
+.cv img {
+    width: 70px;
+    height: 70px;
+}
+
+.cv button {
+    background-color: #9ec14d;
+    border-radius: 10px;
+    justify-self: unset;
+    height: 30px;
+    width: 100px;
+}

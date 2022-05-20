@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router'
 import { getApplies } from '../../api-services/api-services'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import SearchBar from '../SearchBar/SearchBar'
 
 import './AppliesList.css'
@@ -30,11 +30,12 @@ function AppliesList() {
 
         <>
             <div className='apply-list'>
+                <p> <strong>Busca por: ofertas, consultoras, perfiles</strong></p>
                 <SearchBar />
                 <h1>Datos de búsqueda de empleo</h1>
                 {
                     applies.map(apply =>
-                        <Link to={`/applys/${apply.id}`} style={{ textDecoration: "none" }}>
+                        <Link to={`/applys/${apply.id}`} style={{ textDecoration: "none" }} key={apply.id}>
                             <div className='apply-card'>
                                 <div className='apply-card-detail' key={apply._id} >
                                     <div className=''>
