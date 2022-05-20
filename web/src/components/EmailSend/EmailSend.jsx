@@ -1,17 +1,19 @@
 import emailjs from 'emailjs-com'
+import { useNavigate } from "react-router"
+
 
 import './EmailSend.css'
 
 function EmailSend() {
 
+    const navigate = useNavigate()
 
     function handleSubmit(e) {
         e.preventDefault()
 
         emailjs.sendForm('service_k7khs1e', 'template_x6k8b7e', e.target, 'luKgETKyzUKU2Ynic')
-            .then(res => {
-                alert('se ha enviado correctamente');
-                console.log(res)
+            .then(() => {
+                navigate('/')
             })
     }
 
@@ -21,17 +23,17 @@ function EmailSend() {
 
                 <div className="">
                     Nombre
-                    <input type="text" name="nombre" />
+                    <input type="text" name="nombre" id='nombre' />
                 </div>
 
                 <div className="">
                     Email
-                    <input type='text' name="email" />
+                    <input type='text' name="email" id='nombre'/>
                 </div>
 
                 <div className="">
                     Mensaje
-                    <input type="text" name="mensaje" />
+                    <input type="text" name="mensaje" di='mensaje' />
                 </div>
 
                 <hr />

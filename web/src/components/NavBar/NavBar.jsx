@@ -17,7 +17,6 @@ function NavBar() {
                         <Link to="/academic-data"><strong>Datos académicos</strong></Link>
                         <Link to="/my-proyects"><strong>Mis Proyectos</strong></Link>
                         <Link to="/applies-list"><strong>Mis Datos</strong></Link>
-                        <Link to="/email"><strong>email</strong></Link>
                     </nav>
                 </div>
             </div>
