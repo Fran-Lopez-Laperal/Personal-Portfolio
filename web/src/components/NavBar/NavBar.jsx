@@ -1,5 +1,6 @@
 import './NavBar.css'
-import { Link } from 'react-router-dom'
+
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function NavBar() {
     return (
@@ -7,15 +8,19 @@ function NavBar() {
             <div className="nav-bar">
                 <div className='nav-container'>
                     <Link to='/'>
-                        <h1>Fran</h1>
+                        <p className='letters'>FLL</p>
                     </Link>
                     <input type="checkbox" id="menu-bar" />
                     <label className="fa fa-bars" htmlFor="menu-bar"></label>
                     <nav className='menu'>
-                        <Link to="/about-me"><strong>Sobre Mí</strong></Link>
-                        <Link to="/academic-data"><strong>Datos académicos</strong></Link>
-                        <Link to="/my-proyects"><strong>Mis Proyectos</strong></Link>
-                        <Link to='/applies-list'><strong>Mis Datos</strong></Link>
+                        <Link to='email'><strong>Sobre Mí</strong></Link>
+                        <Link activeClass="active"
+                            to="list"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}><strong>Lista</strong></Link>
+                        <Link to='email'><strong>Contacto</strong></Link>
                     </nav>
                 </div>
             </div>

@@ -1,10 +1,13 @@
 import emailjs from 'emailjs-com'
+import { useState } from 'react'
 import { useNavigate } from "react-router"
 
 
 import './EmailSend.css'
 
 function EmailSend() {
+
+    const [form, setForm] = useState(false)
 
     const navigate = useNavigate()
 
@@ -17,31 +20,48 @@ function EmailSend() {
             })
     }
 
+
+
+
     return (
-        <div className='send'>
-            <form className="" onSubmit={handleSubmit}>
-
-                <div className="">
-                    Nombre
-                    <input type="text" name="nombre" id='nombre' />
+        <>
+            <div className='email'>
+                <div className='email-text'>
+                    <p>Sí quiere hacerme una pregunta o ponerte en contacto conmigo puede hacerlo directamente
+                        enviándome un emial </p>
                 </div>
 
-                <div className="">
-                    Email
-                    <input type='text' name="email" id='nombre'/>
-                </div>
+                
 
-                <div className="">
-                    Mensaje
-                    <input type="text" name="mensaje" di='mensaje' />
-                </div>
+                {form ? (
+                    <form className="" onSubmit={handleSubmit}>
 
-                <hr />
-                <button type="submit">
-                    Enviar Correo
-                </button>
-            </form>
-        </div>
+                        <div className="form-name">
+                            <input type="text" name="nombre" id='nombre' placeholder='  Tú Nombre' />
+                        </div>
+
+                        <div className="form-email">
+                            <input type='text' name="email" id='nombre' placeholder='  example@example.com' />
+                        </div>
+
+                        <div className="form-message">
+                            <input type="text" name="mensaje" id='mensaje' placeholder='  Déjame tú mensaje...' />
+                        </div>
+
+                        <button type="submit">
+                            Enviar Correo
+                        </button>
+                    </form>
+                )
+                    :
+                    <button className='email-btn' onClick={() => setForm(!form)}>
+                        enviar email
+                    </button>  
+                }
+
+
+            </div>
+        </>
     )
 }
 
