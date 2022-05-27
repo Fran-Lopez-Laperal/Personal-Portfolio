@@ -17,8 +17,10 @@ import AppliesList from './components/AppliesList/AppliesList';
 function App() {
   return (
     <div className="App">
+    <ScrollToTop/>
       <NavBar />
-      <Home />
+      <Home
+      id='/' />
       <EmailSend
         id='email'
       />

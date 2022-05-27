@@ -27,8 +27,6 @@ function AppliesList() {
 
 
     return (
-
-        <>
             <div className='apply-list'>
                 <p> <strong>Busca por: ofertas, consultoras, perfiles</strong></p>
                 <SearchBar />
@@ -52,8 +50,6 @@ function AppliesList() {
                     )
                 }
             </div>
-
-        </>
     )
 }
 
