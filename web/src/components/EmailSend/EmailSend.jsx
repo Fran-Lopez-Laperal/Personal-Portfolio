@@ -34,17 +34,17 @@ function EmailSend() {
                 
 
                 {form ? (
-                    <form className="" onSubmit={handleSubmit}>
+                    <form className="form-message" onSubmit={handleSubmit}>
 
-                        <div className="form-name">
+                        <div className="form form-name">
                             <input type="text" name="nombre" id='nombre' placeholder='  Tú Nombre' />
                         </div>
 
-                        <div className="form-email">
+                        <div className="form form-email">
                             <input type='text' name="email" id='nombre' placeholder='  example@example.com' />
                         </div>
 
-                        <div className="form-message">
+                        <div className="form form-message">
                             <input type="text" name="mensaje" id='mensaje' placeholder='  Déjame tú mensaje...' />
                         </div>
 

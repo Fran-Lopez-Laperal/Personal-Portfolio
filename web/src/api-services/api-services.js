@@ -21,7 +21,7 @@ http.interceptors.response.use(
 );
 
 export function getApplies(category) {
-  return http.get('/api/applys', {params: {category}})
+  return http.get('/api/applys', { params: { category } })
 }
 
 export function newApply(apply) {
@@ -34,6 +34,7 @@ export function newApply(apply) {
   data.append('location', apply.location)
   data.append('avatar', apply.image)
 
- 
+
   return http.post('/api/applys', data)
 }
+

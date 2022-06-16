@@ -1,5 +1,5 @@
 .email{
-    background-color: #fedc56;
+    color: white;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -49,6 +49,6 @@
 .email-btn{
     width: 140px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(8, 161, 133);
     color: white;
 }

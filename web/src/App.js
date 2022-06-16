@@ -5,30 +5,25 @@ import './App.css';
 // import Curriculum from './components/Curriculum/Curriculum';
 import NavBar from './components/NavBar/NavBar';
 import Home from './Pages/Home/Home';
-// import AbouteMe from './components/AbouteMe/AbouteMe';
-// import MyPoyects from './components/MyProyects/MyProyects';
-// import AcademicData from './components/AcademicData/AcademicData';
-// import Footer from './components/Footer/Footer';
 import EmailSend from './components/EmailSend/EmailSend';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import AppliesList from './components/AppliesList/AppliesList';
+import MyProyects from './components/MyProyects/MyProyects';
 
 
 function App() {
   return (
     <div className="App">
-    <ScrollToTop/>
+      <ScrollToTop />
       <NavBar />
       <Home
-      id='/' />
+        id='home' />
+          <MyProyects
+        id='proyects'
+      />
       <EmailSend
         id='email'
       />
-      <AppliesList
-      title='List'
-        id='list'
-      />
-      {/* <Footer /> */}
+    
     </div>
   );
 }
