@@ -29,6 +29,7 @@ body {
 @media(max-width:1024px){
     .letters-head-section{
         font-size: 25px;
+        margin-left: 10px !important;
     }
 }
 

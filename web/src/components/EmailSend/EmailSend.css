@@ -73,12 +73,9 @@
 }
 
 #email-send{
-    background: none;
+    background:rgb(3, 189, 154);
     border: 1px solid rgb(3, 189, 154) ;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    color: rgb(3, 189, 154);
+    color:white;
     height: 35px;
     margin-top: 20px;
     outline: none;
