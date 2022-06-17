@@ -17,7 +17,7 @@
     padding: 10px;
     font-size: 50px;
     font-weight:bold;
-    cursor:copy;
+    cursor:pointer;
 }
 
 .nav-bar label {

@@ -24,28 +24,32 @@ function Proyects() {
                     </button>
                 </div> */}
 
-                <div>
+                <div className='card-div'>
                     <p>BICKE LOCKER</p>
                     <div className='card'>
-                    <div className='img-card'>
-                    <img src={bike_locker} alt={bike_locker} />
-                    </div>                      
+                        <div className='img-card'>
+                            <img src={bike_locker} alt={bike_locker} />
+                        </div>
                         <hr />
                         <div className='card-body'>
                             <img src={mern} alt={mern} />
                             <img src={postman} alt={postman} />
                             <img id='bs' src={bootstrap} alt={bootstrap} />
                         </div>
+                        <div className='card-link'>
+                            <button className='btn-git'>
+                                <a href="https://github.com/franlopezhack/SHOP-BIKES" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
+                            </button>
+                            <button className='btn-git'>
+                                <a href="https://iron-bike-shop.herokuapp.com/" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Link</a>
+                            </button>
+                        </div>
                     </div>
-                    <button className='btn-git'>
-                        <a href="https://github.com/franlopezhack/SHOP-BIKES" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
-                    </button>
-                    <button className='btn-git'>
-                        <a href="https://iron-bike-shop.herokuapp.com/" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Link</a>
-                    </button>
+
+
                 </div>
 
-                <div>
+                <div className='card-div'>
                     <p> RALLYE DE PONTEVEDRA</p>
                     <div className='card'>
                         <div className='img-card'>
@@ -58,13 +62,15 @@ function Proyects() {
                             <img src={postman} alt={postman} />
                             <img id='bs' src={bootstrap} alt={bootstrap} />
                         </div>
+                        <div className='card-link'>
+                            <button className='btn-git'>
+                                <a href="https://github.com/franlopezhack/rallye-pontevedra" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
+                            </button>
+                            <button className='btn-git'>
+                                <a href="https://www.rallyedepontevedra.com/" target="_blank" rel="noreferrer" className='btn-git-a' style={{ textDecoration: 'none', color: 'white' }}>Link</a>
+                            </button>
+                        </div>
                     </div>
-                    <button className='btn-git'>
-                        <a href="https://github.com/franlopezhack/rallye-pontevedra" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
-                    </button>
-                    <button className='btn-git'>
-                        <a href="https://www.rallyedepontevedra.com/" target="_blank" rel="noreferrer" className='btn-git-a' style={{ textDecoration: 'none', color: 'white' }}>Link</a>
-                    </button>
                 </div>
 
             </div>

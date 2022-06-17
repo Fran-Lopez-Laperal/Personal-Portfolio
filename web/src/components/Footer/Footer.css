@@ -1,4 +1,6 @@
 .footer{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
     height: 100px;
     width: 100%;
 }
