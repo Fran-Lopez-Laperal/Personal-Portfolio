@@ -27,7 +27,7 @@ function EmailSend() {
         <>
             <div className='email'>
                 <div className='email-text'>
-                    <p>Sí quiere hacerme una pregunta o ponerte en contacto conmigo puede hacerlo directamente
+                    <p>Sí quieres hacerme una pregunta o ponerte en contacto conmigo puede hacerlo directamente
                         enviándome un emial </p>
                 </div>
 
@@ -36,29 +36,29 @@ function EmailSend() {
                 {form ? (
                     <form className="form-message" onSubmit={handleSubmit}>
 
-                        <div className="form form-name">
+                        <div className="form">
                             <input type="text" name="nombre" id='nombre' placeholder='  Tú Nombre' />
                         </div>
 
-                        <div className="form form-email">
+                        <div className="form">
                             <input type='text' name="email" id='nombre' placeholder='  example@example.com' />
                         </div>
 
-                        <div className="form form-message">
+                        <div className="form-text">
                             <input type="text" name="mensaje" id='mensaje' placeholder='  Déjame tú mensaje...' />
                         </div>
 
-                        <button type="submit">
-                            Enviar Correo
+                        <button type="submit" id='email-send'>
+                            Enviar mensaje
                         </button>
                     </form>
                 )
                     :
                     <button className='email-btn' onClick={() => setForm(!form)}>
-                        enviar email
-                    </button>  
-                }
+                        Escribir mensaje
+                    </button>
 
+                }
 
             </div>
         </>

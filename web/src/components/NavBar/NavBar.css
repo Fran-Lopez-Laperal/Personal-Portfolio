@@ -75,6 +75,8 @@
 @media(max-width:1024px){
     .nav-bar{
        background: black;
+       height: 70px;
+
     }
 }
 

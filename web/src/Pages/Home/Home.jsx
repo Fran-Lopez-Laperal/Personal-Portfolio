@@ -1,6 +1,7 @@
 import './Home.css'
 import mainImg from '../../assets/images/main-image.png'
 import github from '../../assets/images/github.png'
+import linkedin from '../../assets/images/linkedin.png'
 
 
 
@@ -13,6 +14,7 @@ function Home() {
                     <img className='social-media-1' src={github} alt={github} />
                 </a>
                 <a href='http://www.linkedin.com/in/francisco-josé-lópez-laperal'>
+                
                     <img className='social-media-2' src={linkedin} alt={linkedin} />
                 </a>
                 <div>
@@ -37,9 +39,14 @@ function Home() {
                     </div>
                     <div className='links-home'>
                         <button className='btn-home'>Ver proyectos </button>
-                        <a className='btn-git' href="https://github.com/franlopezhack">
+                        <a className='btn-media' href="https://github.com/franlopezhack">
                             <button>
-                                <img className='gitHub' src={github} alt={github} />
+                                <img className='media' src={github} alt={github} />
+                            </button>
+                        </a>
+                        <a className='btn-media-1' href='http://www.linkedin.com/in/francisco-josé-lópez-laperal'>
+                            <button className='media'>
+                                <img src={linkedin} alt={linkedin} />
                             </button>
                         </a>
                     </div>
