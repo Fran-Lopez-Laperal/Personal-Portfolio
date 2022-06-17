@@ -12,9 +12,10 @@ function NavBar() {
                     <input type="checkbox" id="menu-bar" />
                     <label className="fa fa-bars" htmlFor="menu-bar"></label>
                     <nav className='menu'>
-                        <Link to=''>Sobre Mí</Link>
+                        <Link to='about-me'>Sobre Mí</Link>
                         <Link to='email'>Contacto</Link>
                         <Link to='proyects'>Mis proyectos</Link>
+                        <Link to='about-me'>Sobre mí</Link>
                     </nav>
                 </div>
             </div>

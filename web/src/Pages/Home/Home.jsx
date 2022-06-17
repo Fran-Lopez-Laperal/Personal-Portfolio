@@ -25,7 +25,7 @@ function Home() {
                 <div className='info-name'>
                     <div className='name-head'>
                         <small>Hola, soy </small>
-                        <h1>Francisco </h1>
+                        <h1>Fran </h1>
                         <h1>López Laperal</h1>
                     </div>
                     <div className="animation-home">

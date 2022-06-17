@@ -7,7 +7,8 @@ import NavBar from './components/NavBar/NavBar';
 import Home from './Pages/Home/Home';
 import EmailSend from './components/EmailSend/EmailSend';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import MyProyects from './components/MyProyects/MyProyects';
+import Proyects from './components/Proyects/Proyects';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -17,13 +18,14 @@ function App() {
       <NavBar />
       <Home
         id='home' />
-          <MyProyects
-        id='proyects'
+    
+      <Proyects
+        id='about-me'
       />
       <EmailSend
         id='email'
       />
-    
+      <Footer/>
     </div>
   );
 }

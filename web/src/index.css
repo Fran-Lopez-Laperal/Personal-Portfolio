@@ -5,9 +5,8 @@
 
 
 body {
-    font-family:'Roboto', sans-serif; ; 
-    background: black
-    
+    font-family:'Roboto', sans-serif; 
+    background:rgb(33, 36, 40);
 }
 
 *{
@@ -16,4 +15,23 @@ body {
     box-sizing: border-box;
 }
 
+.letters-head-section{
+    color: white;
+    font-family: monospace;
+    font-size: 45px;
+    font-weight:bold;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: start !important;
+}
+
+hr{
+    background-color: rgb(3, 189, 154);
+    border:none;
+    border-top:1px dashed rgb(3, 189, 154);
+    color:rgb(3, 189, 154);
+    margin-top: 5px;
+    width:100%;
+ }
       

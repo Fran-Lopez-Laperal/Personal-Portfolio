@@ -25,17 +25,21 @@ function EmailSend() {
 
     return (
         <>
+            <p className='letters-head-section'>Quieres decirme algo?</p>
             <div className='email'>
+
                 <div className='email-text'>
                     <p>Sí quieres hacerme una pregunta o ponerte en contacto conmigo puede hacerlo directamente
                         enviándome un emial </p>
                 </div>
 
-                
+
 
                 {form ? (
                     <form className="form-message" onSubmit={handleSubmit}>
+                        <div>
 
+                        </div>
                         <div className="form">
                             <input type="text" name="nombre" id='nombre' placeholder='  Tú Nombre' />
                         </div>
