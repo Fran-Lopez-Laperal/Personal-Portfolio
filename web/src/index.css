@@ -6,7 +6,11 @@
 
 body {
     font-family:'Roboto', sans-serif; 
-    background:rgb(33, 36, 40);
+    background-image:
+    radial-gradient(rgb(3, 189, 154) 3px, rgb(91, 91, 91) 1px),
+    radial-gradient(rgb(3, 189, 154) 3px, rgb(91, 91, 91) 1px);
+    background-position: 0 0. 25px 25px;
+    background-size: 50px 50px;
 }
 
 *{

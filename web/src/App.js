@@ -9,6 +9,7 @@ import EmailSend from './components/EmailSend/EmailSend';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Proyects from './components/Proyects/Proyects';
 import Footer from './components/Footer/Footer';
+import AboutMe from './components/AboutMe/AboutMe';
 
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
       <ScrollToTop />
       <NavBar />
       <Home
-        id='home' />
+        id='home' 
+        />
+        <AboutMe/>
     
       <Proyects
         id='about-me'

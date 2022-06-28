@@ -1,4 +1,5 @@
 .proyects{
+    background-color:  rgb(91, 91, 91);
     min-height: 100vh;
     width: 100%;
 }
@@ -81,7 +82,7 @@
 }
 
 @media(max-width:1024px){
-    .card-div{
+    .card_div{
         margin-top: 50px;
         margin-bottom: 30px;
     }

@@ -25,22 +25,20 @@ function EmailSend() {
 
     return (
 
-            <div className='email'>
-                <p className='letters-head-section'>Quieres que hablemos?</p>
-                <div className='email-container'>
+        <div className='email'>
+            <p className='letters-head-section'>Quieres que hablemos?</p>
+            <div className='email-container'>
 
-                    <div className='email-text'>
-                        <p>Sí quieres hacerme una pregunta o ponerte en contacto conmigo puedes hacerlo directamente
-                            enviándome un emial </p>
-                    </div>
+                <div className='email-text'>
+                    <p>Sí quieres hacerme una pregunta o ponerte en contacto conmigo puedes hacerlo directamente
+                        enviándome un emial </p>
+                </div>
 
 
 
-                    {form ? (
-                        <form className="form-message" onSubmit={handleSubmit}>
-                            <div>
-
-                            </div>
+                {form ? (
+                    <form className="form-message" onSubmit={handleSubmit}>
+                        <div className='input-container'>
                             <div className="form">
                                 <input type="text" name="nombre" id='nombre' placeholder='  Tú Nombre' />
                             </div>
@@ -56,17 +54,19 @@ function EmailSend() {
                             <button type="submit" id='email-send'>
                                 Enviar mensaje
                             </button>
-                        </form>
-                    )
-                        :
-                        <button className='email-btn' onClick={() => setForm(!form)}>
-                            Escribir mensaje
-                        </button>
+                        </div>
 
-                    }
+                    </form>
+                )
+                    :
+                    <button className='email-btn' onClick={() => setForm(!form)}>
+                        Escribir mensaje
+                    </button>
 
-                </div>
+                }
+
             </div>
+        </div>
 
     )
 }
