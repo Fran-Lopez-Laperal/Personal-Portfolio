@@ -45,20 +45,24 @@
     height: 35px;
     margin-left: 100px;
     outline: none;
+    cursor: pointer;
     width: 120px;
 }
 
 .links-home{
     display: flex;
+    cursor: pointer;
     align-items: center;
     position:absolute;
     margin-top: -150px;
 }
 .links-home button{
    margin-left: 20px;
+   cursor: pointer;
 }
 
 .btn-media img{
+    cursor: pointer;
     width: 50px;
     height: 50px;
 }

@@ -39,12 +39,12 @@ function Home() {
                     </div>
                     <div className='links-home'>
                         <button className='btn-home'>Ver proyectos </button>
-                        <a className='btn-media' href="https://github.com/franlopezhack">
+                        <a className='btn-media' target='_blank' rel="noreferrer" href="https://github.com/franlopezhack">
                             <button>
                                 <img className='media' src={github} alt={github} />
                             </button>
                         </a>
-                        <a className='btn-media-1' href='http://www.linkedin.com/in/francisco-josé-lópez-laperal'>
+                        <a className='btn-media-1' target='_blank' rel="noreferrer" href='http://www.linkedin.com/in/francisco-josé-lópez-laperal'>
                             <button className='media'>
                                 <img src={linkedin} alt={linkedin} />
                             </button>

@@ -17,18 +17,11 @@ function App() {
     <div className="App">
       <ScrollToTop />
       <NavBar />
-      <Home
-        id='home' 
-        />
-        <AboutMe/>
-    
-      <Proyects
-        id='about-me'
-      />
-      <EmailSend
-        id='email'
-      />
-      <Footer/>
+      <Home />
+      <AboutMe />
+      <Proyects />
+      <EmailSend />
+      <Footer />
     </div>
   );
 }

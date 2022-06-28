@@ -1,6 +1,6 @@
 .about-me{
     background: transparent;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -20,10 +20,64 @@
     font-weight:bold;
     margin-bottom: 30px;
     margin-left: 30px;
-    margin-top: 50px;
-
 }
 
+.container-card{
+    background: gray;
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 408px;
+    width: 297px;
+}
+
+
+.btn-about-me button{
+    background: none;
+    border-radius: 30px;
+    border: 1px solid white ;
+    color: white;
+    height: 35px;
+    margin-left: 100px;
+    margin-top: 50px;
+    outline: none;
+    cursor: pointer;
+    width: 120px;
+}
+
+.card-about-me h2{
+    margin-top: 50px;
+}
+
+.list-container{
+    display: flex;
+    margin-left: 50px;
+}
+
+.list-container p{
+    display: block;
+    white-space:nowrap;
+    border-right: 4px solid;
+    width: 26ch;
+
+    animation:infinite typing 9s  steps(22), 
+blink .5s infinite step-end alternate ;
+     overflow:hidden;
+}
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% {border-color: transparent;}
+}
+
+.list li {
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 50px
+}
 
 
 #card-about-me3{
@@ -31,7 +85,8 @@
     border-radius: 5px;
     box-shadow: 1px 1px 2px rgb(153, 246, 212);
     height: 400px;
-    width: 315px;
+    margin-top: -50px;
+    width: 290px;
     transition: all 1s;
     transform: rotate(0deg);
 
@@ -51,7 +106,7 @@
     border-radius: 5px;
     box-shadow: 1px 1px 2px rgb(153, 246, 212);
     height: 400px;
-    width: 315px;
+    width: 290px;
     transition: all 1s;
     transform: rotateX(30deg);
 
@@ -69,7 +124,7 @@
     height: 400px;
     margin-right: 80px;
     margin-top: 200px;
-    width: 315px;
+    width: 300px;
     transition: all 1s;
     transform: rotate(30deg);
 
@@ -107,15 +162,34 @@
     #card-about-me2{
         height: 200px;
         margin-left: 80px;
-        width: 150px;
-       
+        margin-top: -20px;
+        width: 150px;      
     }
 }
 @media(max-width:1024px){
     #card-about-me3{
         height: 200px;
-        margin-left: 250px;
+        margin-left: 200px;
+        margin-top: 10px;
         width: 150px;
-       
+    }
+}
+
+@media(max-width:1024px){
+    .btn-about-me button{
+        height: 30px;
+        margin-top: 100px;
+        margin-left: 40px;
+        width: 80px;
+    }
+}
+
+@media(max-width:1024px){
+    .container-card{
+        background: none;
+        border:none;
+        border-radius: none;
+        height: none;
+        width: none;
     }
 }
