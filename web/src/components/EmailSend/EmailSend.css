@@ -13,15 +13,40 @@
 }
 
 .form-message{
-    background-color: rgb(91, 91, 91);
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.form-container{
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: space-between;
     border-radius: 10px;
     box-shadow: 1px 1px 4px black ;
-    height: 300px;
-    width: 600px;
+    height: 400px;
+    margin-bottom: 100px;
+    padding: 30px;
+    width: 860px;
 }
+
+.info-container h1{
+    color:rgb(3, 189, 154);
+    margin-top: 25px;
+    text-shadow: rgb(10 207 151) 0px 0px 10px;
+}
+.info-container p{
+    color:rgb(3, 189, 154);
+    margin-top: 15px;
+    text-shadow: rgb(10 207 151) 0px 0px 10px;
+}
+
+.info-container a{
+    color: white;
+   text-decoration: none;
+}
+
+
 @media(max-width:1024px){
     .form-message{
         height: 310px;
@@ -30,25 +55,26 @@
 }
 
 .form input{
-    background: none;
+    background: rgb(91, 91, 91);
     border-radius: 5px;
     border: 1px solid rgb(3, 189, 154) ;
     color: rgb(3, 189, 154);
-    height: 35px;
+    height: 45px;
     margin-top: 20px;
     outline: none;
-    width: 200px;
+    width: 300px;
 }
 
-.form-text input{
-    background: none;
+.form-text textarea{
+    background: rgb(91, 91, 91);
     border-radius: 5px;
     border: 1px solid rgb(3, 189, 154) ;
     color: rgb(3, 189, 154);
-    height: 100px;
+    height: 120px;
     margin-top: 20px;
     outline: none;
-    width: 200px;
+    padding: 10px;
+    width: 300px;
 }
 
 
@@ -71,6 +97,7 @@
     color: rgb(3, 189, 154);
     cursor: pointer;
     height: 50px;
+    margin-top: 160px;
     outline: none;
     font-size: 25px;
     width: 250px;
@@ -91,6 +118,7 @@
     outline: none;
     width: 120px;
 }
+
 
 
 @media(max-width:1024px){

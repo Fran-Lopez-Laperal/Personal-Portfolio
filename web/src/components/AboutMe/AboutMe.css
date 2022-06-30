@@ -3,7 +3,6 @@
     min-height: 100vh;
 }
 
-
 .section-about-me{
     display: flex;
     justify-content: space-around;
@@ -38,14 +37,18 @@
     color: white;
     height: 35px;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 25px;
     outline: none;
     cursor: pointer;
     width: 120px;
 }
 
 .card-about-me h2{
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+#btn-about-me button{
+    margin-top: 230px;
 }
 
 .list-container{
@@ -72,11 +75,72 @@ blink .5s infinite step-end alternate ;
     50% {border-color: transparent;}
 }
 
-.list li {
-    font-size: 25px;
+.list-skill li {
+    font-size: 20px;
     color: white;
     letter-spacing: 1px;
-    line-height: 50px
+    line-height: 40px;
+    list-style: none;
+    margin-left: -30px;
+}
+
+#skill-dev{
+    margin-bottom: 20px;
+}
+
+@media(max-width:1024px){
+    .card-about-me h2{
+        margin-top: 10px;
+    } 
+ }
+
+@media(max-width:1024px){
+   .list-container p{
+    margin-left: -40px;
+    margin-top: 55px;
+    font-size: 10px;
+   }  
+}
+
+.list-hobbies {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 50px;
+    list-style: none;
+    margin-left: -25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}  
+
+@media(max-width:1024px){
+    .list-hobbies {
+        color: white;
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        list-style: none;
+        margin-left: -25px;
+        margin-bottom: 1px;
+        margin-top: 10px;
+    }  
+}
+
+@media(max-width:1024px){
+    .list-skill{
+     color: white;
+     font-size: 15px;
+     margin-left: -25px;
+     list-style: none;
+     margin-bottom: -20px;
+    }
+ }
+
+@media(max-width:1024px){
+   .btn-about-me button{
+    width: 10px;
+    height: 10px;
+   }
 }
 
 
@@ -85,7 +149,7 @@ blink .5s infinite step-end alternate ;
     border-radius: 5px;
     box-shadow: 1px 1px 2px rgb(153, 246, 212);
     height: 400px;
-    margin-top: -50px;
+    position: absolute;
     width: 290px;
     transition: all 1s;
     transform: rotate(0deg);
@@ -135,6 +199,8 @@ blink .5s infinite step-end alternate ;
     transform: rotateY(360deg);
 }
 
+
+
 @media(max-width:1024px){
     .letters-about-section{
         display:initial;
@@ -178,7 +244,6 @@ blink .5s infinite step-end alternate ;
 @media(max-width:1024px){
     .btn-about-me button{
         height: 30px;
-        margin-top: 100px;
         margin-left: 40px;
         width: 80px;
     }
