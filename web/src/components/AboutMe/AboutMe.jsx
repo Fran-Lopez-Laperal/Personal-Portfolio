@@ -27,8 +27,8 @@ function AboutMe() {
                     <h2 className='letters-about-section'>Mi formación</h2>
                     <div className='list-container'>
                         <ul className='list-skill'>
-                            <li id='skill-dev' style={{ fontSize: '25px' }}> <span style={{ fontSize: '30px' }}>💻</span> -BOOTCAMP  WEB DEVELOPER MERN</li>
-                            <li style={{ fontSize: '25px' }}> <span style={{ fontSize: '40px' }}>🤸🏼‍♂️</span>- CS ACTIVIDADES FÍSICAS Y DEPORTIVAS</li>
+                            <li> <span>💻</span> -BOOTCAMP  WEB DEVELOPER MERN</li>
+                            <li className='skill-sport'> <span>🤸🏼‍♂️</span>- CS ACTIVIDADES FÍSICAS Y DEPORTIVAS</li>
                         </ul>
                     </div>
                     <div className='btn-about-me'>
@@ -43,9 +43,9 @@ function AboutMe() {
                         <h2 className='letters-about-section'>Mis hobbies</h2>
                         <div className='list-container'>
                             <ul className='list-hobbies'>
-                                <li style={{ fontSize: '25px' }}> <span style={{ fontSize: '40px' }}>🚵🏼</span> - CICLISMO</li>
-                                <li style={{ fontSize: '20px' }}> <span style={{ fontSize: '40px' }}>🎣</span> - PESCA DEPORTIVA</li>
-                                <li style={{ fontSize: '25px' }}> <span style={{ fontSize: '40px' }}>✈️</span> - VIAJAR</li>
+                                <li > <span>🚵🏼</span> - CICLISMO</li>
+                                <li > <span>🎣</span> - PESCA DEPORTIVA</li>
+                                <li> <span>✈️</span> - VIAJAR</li>
                             </ul>
                         </div>
                         <div className='btn-about-me'>

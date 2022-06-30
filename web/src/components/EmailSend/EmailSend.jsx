@@ -38,7 +38,7 @@ function EmailSend() {
                 <div className='form-container'>
 
                     <div className='info-container'>
-                        <h1>CONTACTA<span style={{color:'white'}}> CONMIGO</span></h1>
+                        <h1>CONTACTA<span style={{ color: 'white' }}> CONMIGO</span></h1>
                         <h1>Nombre</h1>
                         <h4>Francisco José López Laperal</h4>
                         <h1>Email</h1>
@@ -61,10 +61,12 @@ function EmailSend() {
                                 <div className="form-text">
                                     <textarea type="text" name="mensaje" id='mensaje' placeholder='  Déjame tú mensaje...'></textarea>
                                 </div>
+                                <div className='email-send'>
+                                    <button type="submit" id='email-send'>
+                                        Enviar mensaje
+                                    </button>
+                                </div>
 
-                                <button type="submit" id='email-send'>
-                                    Enviar mensaje
-                                </button>
                             </div>
 
                         </form>

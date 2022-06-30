@@ -50,7 +50,11 @@
 #btn-about-me button{
     margin-top: 230px;
 }
-
+@media(max-width:1024px){
+    #btn-about-me button{
+        margin-top: 60px;
+    }
+}
 .list-container{
     display: flex;
     margin-left: 50px;
@@ -75,14 +79,7 @@ blink .5s infinite step-end alternate ;
     50% {border-color: transparent;}
 }
 
-.list-skill li {
-    font-size: 20px;
-    color: white;
-    letter-spacing: 1px;
-    line-height: 40px;
-    list-style: none;
-    margin-left: -30px;
-}
+
 
 #skill-dev{
     margin-bottom: 20px;
@@ -113,10 +110,12 @@ blink .5s infinite step-end alternate ;
     margin-top: 10px;
 }  
 
+
+
 @media(max-width:1024px){
     .list-hobbies {
         color: white;
-        font-size: 15px;
+        font-size: 15px !important;
         letter-spacing: 0px;
         line-height: 20px;
         list-style: none;
@@ -126,15 +125,53 @@ blink .5s infinite step-end alternate ;
     }  
 }
 
+.list-hobbies span {
+       font-size: 40px;
+} 
+
 @media(max-width:1024px){
-    .list-skill{
+    .list-hobbies span {
+        font-size: 20px;  
+    }  
+}
+
+.list-skill li{
+    color: white;
+    font-size: 25px;
+    margin-left: -25px;
+    list-style: none;
+}
+
+.list-skill span{
+    font-size: 30px;
+}
+ 
+.skill-sport span{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+@media(max-width:1024px){
+    .list-skill span{
+        font-size: 20px;
+       }   
+}
+
+ @media(max-width:1024px){
+    .skill-sport span{
+        font-size: 40px;
+        margin-top: 40px;
+       }
+}
+
+@media(max-width:1024px){
+    .list-skill li{
      color: white;
-     font-size: 15px;
+     font-size: 10px;
      margin-left: -25px;
      list-style: none;
-     margin-bottom: -20px;
     }
- }
+}
 
 @media(max-width:1024px){
    .btn-about-me button{

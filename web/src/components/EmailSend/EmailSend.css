@@ -30,6 +30,29 @@
     width: 860px;
 }
 
+@media(max-width:1024px){
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        width: 300px;
+    }
+}
+
+@media(max-width:1024px){
+    .info-container h1{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1024px){
+   
+}
+@media(max-width:1024px){
+    
+}
+
+
 .info-container h1{
     color:rgb(3, 189, 154);
     margin-top: 25px;
@@ -48,10 +71,25 @@
 
 
 @media(max-width:1024px){
-    .form-message{
-        height: 310px;
-        width: 300px;
+    .form input{
+    width: 250px !important;
+     
     }
+}
+
+@media(max-width:1024px){
+    .form-text textarea{
+    width: 250px !important;
+
+    }
+}
+
+@media(max-width:1024px){
+  .email-send button {
+    margin-top: 5px !important;
+    width: 100% !important;
+    height: 25px !important;
+  }
 }
 
 .form input{
@@ -132,8 +170,7 @@
 @media(max-width:1024px){
     .email-text{
         font-size: 15px;
-        margin-bottom: 40px;
-        margin-top: 50px;
+        margin-top: 10px;
         width: 300px;
     }
 }
