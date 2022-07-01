@@ -2,6 +2,8 @@ import './Home.css'
 import mainImg from '../../assets/images/main-image.png'
 import github from '../../assets/images/github.png'
 import linkedin from '../../assets/images/linkedin.png'
+import pdf from '../../assets/images/CV Fran.pdf'
+
 
 
 
@@ -39,6 +41,9 @@ function Home() {
                     </div>
                     <div className='links-home'>
                         <button className='btn-home'>Ver proyectos </button>
+                        <button className='btn-home-cv'>
+                            <a href={pdf}>Descarga CV</a>
+                        </button>
                         <a className='btn-media' target='_blank' rel="noreferrer" href="https://github.com/franlopezhack">
                             <button>
                                 <img className='media' src={github} alt={github} />
@@ -49,6 +54,8 @@ function Home() {
                                 <img src={linkedin} alt={linkedin} />
                             </button>
                         </a>
+                      
+
                     </div>
                 </div>
 

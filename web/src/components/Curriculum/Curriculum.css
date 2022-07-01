@@ -10,9 +10,13 @@
 }
 
 .cv button {
-    background-color: #23f503;
-    border-radius: 5px;
-    height: 20px;
-    margin-top: -22px;
-    width: 80px;
+    background: none;
+    border-radius: 30px;
+    border: 1px solid rgb(3, 189, 154) ;
+    color: rgb(3, 189, 154);
+    height: 35px;
+    margin-left: 100px;
+    outline: none;
+    cursor: pointer;
+    width: 120px;
 }
