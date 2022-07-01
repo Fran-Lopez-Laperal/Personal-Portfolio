@@ -43,28 +43,66 @@
     width: 120px;
 }
 
+.btn-about-me a {
+    color: wheat;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .card-about-me h2{
     margin-top: 30px;
 }
 
+.letters-about-section-text{
+    font-size: 28px;
+    margin-bottom: -80px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
 #btn-about-me button{
-    margin-top: 230px;
+    margin-top: 100px;
 }
 @media(max-width:1024px){
     #btn-about-me button{
-        margin-top: 60px;
+        margin-top: 30px;
     }
 }
 .list-container{
     display: flex;
-    margin-left: 50px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+@media(max-width:1024px){
+    .list-container{
+        margin-left: 80px;
+    }
+}
+
+.letters-about-section-name{
+    color: rgb(16, 106, 89);
+    margin-top: 25px;
+    text-shadow: rgb(248, 250, 250) 0px 0px 10px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+@media(max-width:1024px){
+    .list-container p{
+        font-size: 20px !important;
+        margin-top: -20px !important;
+    }
 }
 
 .list-container p{
     display: block;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: -30px;
     white-space:nowrap;
     border-right: 4px solid;
-    width: 26ch;
+    width: 24ch;
 
     animation:infinite typing 9s  steps(22), 
 blink .5s infinite step-end alternate ;
@@ -86,22 +124,14 @@ blink .5s infinite step-end alternate ;
 }
 
 @media(max-width:1024px){
-    .card-about-me h2{
-        margin-top: 10px;
-    } 
- }
-
-@media(max-width:1024px){
    .list-container p{
-    margin-left: -40px;
-    margin-top: 55px;
-    font-size: 10px;
+    margin-left: -70px;
    }  
 }
 
 .list-hobbies {
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 0px;
     line-height: 50px;
     list-style: none;
@@ -159,7 +189,7 @@ blink .5s infinite step-end alternate ;
 
  @media(max-width:1024px){
     .skill-sport span{
-        font-size: 40px;
+        font-size: 35px;
         margin-top: 40px;
        }
 }
@@ -240,8 +270,6 @@ blink .5s infinite step-end alternate ;
 
 @media(max-width:1024px){
     .letters-about-section{
-        display:initial;
-        justify-content: center;
         font-size: 15px;
     }
 }
@@ -250,31 +278,40 @@ blink .5s infinite step-end alternate ;
     .section-about-me{
         display: flex;
         flex-direction: column;
+        margin-top: 1px;
     }
 }
 
 @media(max-width:1024px){
     #card-about-me1{
-        height: 200px;
+        text-align: center;
+        height: 260px;
         margin-bottom: 30px;
         margin-left: 20px;
-        width: 150px
+        width: 360px
     }
 }
+
+@media(max-width:1024px){
+    #card-about-me1 h2{
+        font-size: 40px;
+    }
+}
+
 @media(max-width:1024px){
     #card-about-me2{
-        height: 200px;
+        height: 270px;
         margin-left: 80px;
-        margin-top: -20px;
-        width: 150px;      
+        margin-top: 40px;
+        width: 200px;      
     }
 }
 @media(max-width:1024px){
     #card-about-me3{
-        height: 200px;
-        margin-left: 200px;
-        margin-top: 10px;
-        width: 150px;
+        height: 270px;
+        margin-left: 150px;
+        margin-top: 120px;
+        width: 200px;
     }
 }
 
