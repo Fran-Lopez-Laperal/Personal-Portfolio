@@ -38,6 +38,12 @@
     object-fit:cover;
 }
 
+@media(max-width:1024px){
+    .container-card img {  
+        display: none;
+    }  
+}
+
 
 .btn-about-me button{
     background: none;
@@ -69,12 +75,23 @@
     margin-top: 15px;
 }
 
+@media(max-width:1024px){
+    .letters-about-section-text p{
+        font-size: 18px ;
+    }
+}
+
 #btn-about-me button{
     margin-top: 100px;
 }
+
+#btn-about-me button:hover{
+   background-color:  rgb(58, 164, 230);
+}
+
 @media(max-width:1024px){
     #btn-about-me button{
-        margin-top: 30px;
+        margin-top: 80px;
     }
 }
 .list-container{
@@ -293,7 +310,7 @@ blink .5s infinite step-end alternate ;
 @media(max-width:1024px){
     #card-about-me1{
         text-align: center;
-        height: 260px;
+        height: 280px;
         margin-bottom: 30px;
         margin-left: 20px;
         width: 360px
