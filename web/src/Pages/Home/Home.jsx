@@ -3,6 +3,7 @@ import mainImg from '../../assets/images/main-image.png'
 import github from '../../assets/images/github.png'
 import linkedin from '../../assets/images/linkedin.png'
 import pdf from '../../assets/images/CV Fran.pdf'
+import { Link } from 'react-scroll'
 
 
 
@@ -41,7 +42,10 @@ function Home() {
                     </div>
                     <div className='links-home'>
                         <div className='btn-group'>
-                            <button className='btn-home'>Ver proyectos </button>
+                            <button className='btn-home'>
+                                <Link to='proyects'>Ver proyectos </Link>
+                            </button>
+
                             <button className='btn-home-cv'>
                                 <a href={pdf}>Descarga CV</a>
                             </button>

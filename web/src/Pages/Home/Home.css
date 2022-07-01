@@ -39,7 +39,7 @@
 
 .btn-home{
     background: none;
-    border-radius: 30px;
+    border-radius: 130px;
     border: 1px solid rgb(3, 189, 154) ;
     color: rgb(3, 189, 154);
     height: 55px;
@@ -48,6 +48,7 @@
     cursor: pointer;
     width: 150px;
 }
+
 
 .btn-home-cv{
     background: none;
@@ -78,10 +79,6 @@
     text-decoration: none;
 }
 
-.btn-home a{
-    color:rgb(3, 189, 154) ;
-    text-decoration: none;
-}
 
 .btn-home:hover{
     background-color:rgb(3, 189, 154) ;

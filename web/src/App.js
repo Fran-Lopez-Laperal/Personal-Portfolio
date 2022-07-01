@@ -10,6 +10,8 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Proyects from './components/Proyects/Proyects';
 import Footer from './components/Footer/Footer';
 import AboutMe from './components/AboutMe/AboutMe';
+import { Routes, Route } from 'react-router';
+import WhoIAm from './components/WhoIAm/WhoIAm';
 
 
 function App() {
@@ -22,6 +24,9 @@ function App() {
       <Proyects />
       <EmailSend />
       <Footer />
+      <Routes>
+        <Route path='/sobre-mi' element={<WhoIAm/>}/>
+      </Routes>
     </div>
   );
 }

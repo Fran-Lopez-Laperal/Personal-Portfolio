@@ -28,9 +28,6 @@ function AboutMe() {
                     <div id='btn-about-me' className='btn-about-me'>
                         <button>Saber más</button>
                     </div>
-
-
-
                 </div>
 
 
@@ -44,7 +41,7 @@ function AboutMe() {
                         </ul>
                     </div>
                     <div className='btn-about-me'>
-                        <button><a href="/skills">Saber más</a></button>
+                        <button>Saber más</button>
                     </div>
                 </div>
 

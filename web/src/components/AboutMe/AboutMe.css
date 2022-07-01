@@ -58,6 +58,10 @@
     width: 120px;
 }
 
+.btn-about-me button:hover{
+    background-color:  rgb(58, 164, 230);
+}
+
 .btn-about-me a {
     color: wheat;
     cursor: pointer;
