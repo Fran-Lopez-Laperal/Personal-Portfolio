@@ -1,4 +1,6 @@
 import './AboutMe.css'
+import bike from '../../assets/images/bike.jpeg'
+
 
 
 function AboutMe() {
@@ -27,7 +29,7 @@ function AboutMe() {
                         <button>Saber más</button>
                     </div>
 
-                    
+
 
                 </div>
 
@@ -42,12 +44,13 @@ function AboutMe() {
                         </ul>
                     </div>
                     <div className='btn-about-me'>
-                    <button><a href="/skills">Saber más</a></button>
+                        <button><a href="/skills">Saber más</a></button>
                     </div>
                 </div>
 
 
                 <div className='container-card'>
+                    <img src={bike} alt={bike} />
                     <div id='card-about-me3' className='card-about-me'>
                         <h2 className='letters-about-section'>Mis hobbies</h2>
                         <div className='list-container'>
@@ -58,7 +61,7 @@ function AboutMe() {
                             </ul>
                         </div>
                         <div className='btn-about-me'>
-                        <button>Saber más</button>
+                            <button>Saber más</button>
                         </div>
 
                     </div>

@@ -26,7 +26,16 @@
     border: 3px solid black;
     border-radius: 5px;
     height: 408px;
-    width: 297px;
+    object-fit:contain;
+    width: 299px;
+}
+
+.container-card img {
+    display: flex;
+    position: absolute;
+    width: 292px;
+    height: 400px;
+    object-fit:cover;
 }
 
 
@@ -215,9 +224,10 @@ blink .5s infinite step-end alternate ;
     background: rgb(61, 199, 148);
     border-radius: 5px;
     box-shadow: 1px 1px 2px rgb(153, 246, 212);
-    height: 400px;
+    height: 402px;
     position: absolute;
-    width: 290px;
+    margin-top: -0.5px;
+    width: 292px;
     transition: all 1s;
     transform: rotate(0deg);
 
@@ -244,9 +254,7 @@ blink .5s infinite step-end alternate ;
     transform-style:preserve-3d;
 }
 
-#card-about-me1:hover{
-    transform: rotateY(160deg);
-}
+
 
 #card-about-me2{
     background: rgb(61, 199, 148);
