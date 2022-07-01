@@ -40,10 +40,13 @@ function Home() {
 
                     </div>
                     <div className='links-home'>
-                        <button className='btn-home'>Ver proyectos </button>
-                        <button className='btn-home-cv'>
-                            <a href={pdf}>Descarga CV</a>
-                        </button>
+                        <div className='btn-group'>
+                            <button className='btn-home'>Ver proyectos </button>
+                            <button className='btn-home-cv'>
+                                <a href={pdf}>Descarga CV</a>
+                            </button>
+                        </div>
+
                         <a className='btn-media' target='_blank' rel="noreferrer" href="https://github.com/franlopezhack">
                             <button>
                                 <img className='media' src={github} alt={github} />
@@ -54,7 +57,7 @@ function Home() {
                                 <img src={linkedin} alt={linkedin} />
                             </button>
                         </a>
-                      
+
 
                     </div>
                 </div>

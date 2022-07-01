@@ -58,7 +58,19 @@
     margin-left: 100px;
     outline: none;
     cursor: pointer;
-    width: 120px;
+    width: 150px;
+}
+
+@media(max-width:1025px){
+    .btn-group{
+        width: 200px;
+    }
+}
+
+@media(max-width:1025px){
+    .btn-home-cv{
+        margin-top: 10px;
+    }
 }
 
 .btn-home-cv a{
