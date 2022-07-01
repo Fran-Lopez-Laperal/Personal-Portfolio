@@ -1,5 +1,6 @@
 import './AboutMe.css'
 import bike from '../../assets/images/bike.jpeg'
+// import { Link } from 'react-router-dom'
 
 
 
@@ -24,10 +25,13 @@ function AboutMe() {
                         <p><span>🏔️</span>El deporte al aire libre!</p>
 
                     </div>
-
+{/* 
                     <div id='btn-about-me' className='btn-about-me'>
-                        <button>Saber más</button>
-                    </div>
+                        <Link to={'/sobre-mi'}>
+                            <button>Saber más</button>
+                        </Link>
+
+                    </div> */}
                 </div>
 
 
@@ -40,9 +44,9 @@ function AboutMe() {
                             <li className='skill-sport'> <span>🤸🏼‍♂️</span>- CS ACTIVIDADES FÍSICAS Y DEPORTIVAS</li>
                         </ul>
                     </div>
-                    <div className='btn-about-me'>
+                    {/* <div className='btn-about-me'>
                         <button>Saber más</button>
-                    </div>
+                    </div> */}
                 </div>
 
 
@@ -57,9 +61,9 @@ function AboutMe() {
                                 <li> <span>✈️</span> - VIAJAR</li>
                             </ul>
                         </div>
-                        <div className='btn-about-me'>
+                        {/* <div className='btn-about-me'>
                             <button>Saber más</button>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

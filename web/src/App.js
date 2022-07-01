@@ -11,21 +11,25 @@ import Proyects from './components/Proyects/Proyects';
 import Footer from './components/Footer/Footer';
 import AboutMe from './components/AboutMe/AboutMe';
 import { Routes, Route } from 'react-router';
+import React from "react";
 import WhoIAm from './components/WhoIAm/WhoIAm';
 
 
 function App() {
   return (
     <div className="App">
-      <ScrollToTop />
-      <NavBar />
-      <Home />
-      <AboutMe />
-      <Proyects />
-      <EmailSend />
-      <Footer />
+      <div>
+        <ScrollToTop />
+        <NavBar />
+        <Home />
+        <AboutMe />
+        <Proyects />
+        <EmailSend />
+        <Footer />
+      </div>
+
       <Routes>
-        <Route path='/sobre-mi' element={<WhoIAm/>}/>
+        <Route path="/sobre-mi" element={<WhoIAm />} />
       </Routes>
     </div>
   );
