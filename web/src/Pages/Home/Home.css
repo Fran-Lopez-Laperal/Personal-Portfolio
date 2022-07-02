@@ -90,8 +90,9 @@
     cursor: pointer;
     align-items: center;
     position:absolute;
-    margin-top: -150px;
+    margin-top: -180px;
 }
+
 .links-home button{
    margin-left: 20px;
    cursor: pointer;
@@ -128,7 +129,8 @@
     .animation-home{
         font-size: 25px;
         font-weight: bolder;  
-        justify-content: center;    
+        justify-content: center;  
+        margin-top: -170px;  
     }
 }
 
@@ -145,6 +147,11 @@
     }
 }
 
+@media(max-width:1024px){
+    .info-name{
+        min-height: 90vh;
+    }
+}
 
 .main-img{
     width: 100%;
