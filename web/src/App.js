@@ -18,19 +18,15 @@ import WhoIAm from './components/WhoIAm/WhoIAm';
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
+      <NavBar />
       <div>
-        <ScrollToTop />
-        <NavBar />
-        <Home />
-        <AboutMe />
-        <Proyects />
-        <EmailSend />
-        <Footer />
+        <Routes>
+          <Route path="/sobre-mi" element={<WhoIAm />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
       </div>
-
-      <Routes>
-        <Route path="/sobre-mi" element={<WhoIAm />} />
-      </Routes>
+      <Footer />
     </div>
   );
 }

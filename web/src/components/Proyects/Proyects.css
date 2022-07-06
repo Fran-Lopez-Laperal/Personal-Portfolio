@@ -28,7 +28,10 @@
     height: 400px;
     text-align: center;
     width: 300px;
+
+
 }
+
 
 .card:hover{
     color: black;
