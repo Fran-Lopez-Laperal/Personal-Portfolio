@@ -4,6 +4,7 @@ import rallye from '../../assets/images/placa.png'
 import mern from '../../assets/images/MERN.png'
 import postman from '../../assets/images/postman.png'
 import bootstrap from '../../assets/images/bootstrap-social-logo.png'
+import css from '../../assets/images/css.png'
 
 function Proyects() {
 
@@ -11,9 +12,9 @@ function Proyects() {
     function mostrarScroll() {
         let scrollTop = document.documentElement.scrollTop;
 
-        for(let i = 0; i < animado.length; i++){
+        for (let i = 0; i < animado.length; i++) {
             let alturaAnimado = animado[i].offsetTop;
-            if(alturaAnimado - 300 < scrollTop){
+            if (alturaAnimado - 300 < scrollTop) {
                 animado[i].style.opacity = 1;
             }
         }
@@ -41,9 +42,34 @@ function Proyects() {
                         <a className='btn-git-a' href="/" style={{ textDecoration: 'none', color: 'white' }}>Source</a>
                     </button>
                 </div> */}
+                    <div className='card_div'>
+                        <p>WEB PERSONAL</p>
+                        <div className='card'>
+                            <div className='img-card-portfolio'>
+
+                                <p className='letters'>FLL  💻</p>
+                            </div>
+
+                            <hr />
+
+                            <div className='card-body-portfolio'>
+                                <img src={mern} alt={mern} />
+                                <img id='css-img' src={css} alt={css} />
+
+                            </div>
+                            <div className='card-link'>
+                                <button className='btn-git'>
+                                    <a href="https://github.com/franlopezhack/SHOP-BIKES" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
+                                </button>
+                                <button className='btn-git'>
+                                    <a href="https://iron-bike-shop.herokuapp.com/" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Link</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className='card_div'>
-                        <p>BICKE LOCKER</p>
+                        <p>BIKE LOCKER</p>
                         <div className='card'>
                             <div className='img-card'>
                                 <img src={bike_locker} alt={bike_locker} />
@@ -93,7 +119,7 @@ function Proyects() {
                     </div>
                 </div>
             </div>
-            
+
         </>
     )
 }

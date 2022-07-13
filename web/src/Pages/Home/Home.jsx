@@ -16,18 +16,7 @@ function Home() {
     return (
         <>
             <div className='home'>
-                {/* <div className='social-media'>
-                <a href='https://github.com/franlopezhack'>
-                    <img className='social-media-1' src={github} alt={github} />
-                </a>
-                <a href='http://www.linkedin.com/in/francisco-josé-lópez-laperal'>
-                
-                    <img className='social-media-2' src={linkedin} alt={linkedin} />
-                </a>
-                <div>
-                <Curriculum />
-            </div>
-            </div> */}
+
                 <div className='main-container'>
                     <div className='info-name'>
                         <div className='name-head'>
@@ -79,11 +68,15 @@ function Home() {
                 </div>
             </div>
             <div>
-            <AboutMe/>
-            </div> <div>
-            <Proyects/>
-            </div> <div>
-            <EmailSend/>
+                <AboutMe />
+            </div>
+
+            <div>
+                <Proyects />
+            </div>
+
+            <div>
+                <EmailSend />
             </div>
         </>
 

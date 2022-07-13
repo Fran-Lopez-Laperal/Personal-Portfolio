@@ -27,29 +27,29 @@ function AppliesList() {
 
 
     return (
-            <div className='apply-list'>
-                <p> <strong>Busca por: ofertas, consultoras, perfiles</strong></p>
-                <SearchBar />
-                <h1>Datos de búsqueda de empleo</h1>
-                {
-                    applies.map(apply =>
-                        <Link to={`/applys/${apply.id}`} style={{ textDecoration: "none" }} key={apply.id}>
-                            <div className='apply-card'>
-                                <div className='apply-card-detail' key={apply._id} >
-                                    <div className=''>
-                                        <img src={apply.avatar} alt={apply.avatar} />
-                                    </div>
-                                    <div className='apply-card-info'>
-                                        <h3 >{apply.offerTitle}</h3>
-                                        <h4>{apply.searchWeb}</h4>
-                                        <h5>{apply.typeJob}</h5>
-                                    </div>
+        <div className='apply-list'>
+            <p> <strong>Busca por: ofertas, consultoras, perfiles</strong></p>
+            <SearchBar />
+            <h1>Datos de búsqueda de empleo</h1>
+            {
+                applies.map(apply =>
+                    <Link to={`/applys/${apply.id}`} style={{ textDecoration: "none" }} key={apply.id}>
+                        <div className='apply-card'>
+                            <div className='apply-card-detail' key={apply._id} >
+                                <div className=''>
+                                    <img src={apply.avatar} alt={apply.avatar} />
+                                </div>
+                                <div className='apply-card-info'>
+                                    <h3 >{apply.offerTitle}</h3>
+                                    <h4>{apply.searchWeb}</h4>
+                                    <h5>{apply.typeJob}</h5>
                                 </div>
                             </div>
-                        </Link>
-                    )
-                }
-            </div>
+                        </div>
+                    </Link>
+                )
+            }
+        </div>
     )
 }
 

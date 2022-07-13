@@ -1,8 +1,4 @@
-// import { Routes, Route } from 'react-router'
 import './App.css';
-// import AppliesList from './components/AppliesList/AppliesList';
-// import Apply from './components/NewApply/newApply';
-// import Curriculum from './components/Curriculum/Curriculum';
 import NavBar from './components/NavBar/NavBar';
 import Home from './Pages/Home/Home';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
