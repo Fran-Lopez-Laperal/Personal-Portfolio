@@ -4,7 +4,7 @@ import rallye from '../../assets/images/placa.png'
 import mern from '../../assets/images/MERN.png'
 import postman from '../../assets/images/postman.png'
 import bootstrap from '../../assets/images/bootstrap-social-logo.png'
-import css from '../../assets/images/css.png'
+// import css from '../../assets/images/css.png'
 
 function Proyects() {
 
@@ -54,8 +54,6 @@ function Proyects() {
 
                             <div className='card-body-portfolio'>
                                 <img src={mern} alt={mern} />
-                                <img id='css-img' src={css} alt={css} />
-
                             </div>
                             <div className='card-link'>
                                 <button className='btn-git'>
