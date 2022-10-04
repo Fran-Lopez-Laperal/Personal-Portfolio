@@ -55,7 +55,7 @@ function Proyects() {
                             <div className='card-body-portfolio'>
                                 <img src={mern} alt={mern} />
                             </div>
-                            <div className='card-link'>
+                            <div className='card-link-portfolio'>
                                 <button className='btn-git'>
                                     <a href="https://github.com/franlopezhack/SHOP-BIKES" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
                                 </button>

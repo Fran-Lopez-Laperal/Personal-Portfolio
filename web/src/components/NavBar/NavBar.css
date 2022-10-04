@@ -81,7 +81,7 @@
 
 @media(max-width:1024px){
     .nav-bar{
-       background: black;
+       background: rgb(51, 70, 63);
        height: 90px;
 
     }
