@@ -41,10 +41,12 @@
     background: none;
     border-radius: 130px;
     border: 1px solid rgb(3, 189, 154) ;
+    box-shadow: 5px 5px 0px 1.5px rgb(3, 189, 154);
     color: rgb(3, 189, 154);
     height: 55px;
     margin-left: 100px;
     outline: none;
+    transition: all ease 200ms;
     cursor: pointer;
     width: 150px;
 }
@@ -58,6 +60,7 @@
     height: 35px;
     margin-left: 100px;
     outline: none;
+    transition: all ease 200ms;
     cursor: pointer;
     width: 150px;
 }
@@ -79,10 +82,10 @@
     text-decoration: none;
 }
 
-
-.btn-home:hover{
-    background-color:rgb(3, 189, 154) ;
-    color: white;
+/*este efecto actice sirve para hacer el efecto de pulsar boton*/
+.btn-home:active{
+   transform: translateY(10px);
+   box-shadow: 0px 0px 0px rgb(3, 189, 154);
 }
 
 .links-home{

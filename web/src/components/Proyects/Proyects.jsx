@@ -123,31 +123,32 @@ function Proyects() {
                                 </button>
                             </div>
                         </div>
-                        <div className='card_div'>
-                            <p> JOURNAL APP</p>
-                            <div className='card'>
-                                <div className='img-card'>
-                                    <img src={jorunal} alt={jorunal} />
-                                </div>
+                    </div>
+                    <div className='card_div'>
+                        <p> JOURNAL APP</p>
+                        <div className='card'>
+                            <div className='img-card'>
+                                <img src={jorunal} alt={jorunal} />
+                            </div>
 
-                                <hr />
+                            <hr />
 
-                                <div className='card-body'>
-                                    {/* <img src={mern} alt={mern} />
+                            <div className='card-body'>
+                                {/* <img src={jest} alt={jest} />
                                 <img src={postman} alt={postman} />
                                 <img id='bs' src={bootstrap} alt={bootstrap} /> */}
-                                </div>
-                                <div className='card-link'>
-                                    <button className='btn-git'>
-                                        <a href="https://github.com/franlopezhack/rallye-pontevedra" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
-                                    </button>
-                                    <button className='btn-git'>
-                                        <a href="https://www.rallyedepontevedra.com/" target="_blank" rel="noreferrer" className='btn-git-a' style={{ textDecoration: 'none', color: 'white' }}>Link</a>
-                                    </button>
-                                </div>
+                            </div>
+                            <div className='card-link'>
+                                <button className='btn-git'>
+                                    <a href="https://github.com/franlopezhack/rallye-pontevedra" className='btn-git-a' target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}>Repo GitHub</a>
+                                </button>
+                                <button className='btn-git'>
+                                    <a href="https://www.rallyedepontevedra.com/" target="_blank" rel="noreferrer" className='btn-git-a' style={{ textDecoration: 'none', color: 'white' }}>Link</a>
+                                </button>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
