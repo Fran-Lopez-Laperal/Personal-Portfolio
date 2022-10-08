@@ -10,9 +10,12 @@ function NavBar() {
 
                 <div className='nav-container'>
                     <nav className='menu'>
-                        <Link style={{ fontSize: '40px', fontFamily: 'Courier, monospace', textDecoration: 'underline', color: 'rgb(3, 189, 154)' }} to='about-me'>Sobre Mí</Link>
-                        <Link style={{ fontSize: '40px', fontFamily: 'Courier, monospace', textDecoration: 'underline' }} to='proyects'><small>Mis proyectos</small> </Link>
-                        <Link style={{ fontSize: '40px', fontFamily: 'Courier, monospace', textDecoration: 'underline', color: 'rgb(3, 189, 154)' }} to='email'>Contacto</Link>
+                        <Link className="fa fa-home" aria-hidden="true" style={{ fontSize: '40px' }} to='home'></Link>
+                        <Link className='fa fa-user' style={{ fontSize: '40px' }} to='about-me' ></Link>
+                        <Link className="fa fa-laptop"  aria-hidden="true" style={{ fontSize: '40px' }}></Link>
+                        <Link className="fa fa-code-fork" aria-hidden="true" style={{ fontSize: '40px' }} to=''></Link>
+                        <Link className="fa fa-briefcase" aria-hidden="true" style={{ fontSize: '40px' }} to='proyects'></Link>
+                        <Link className="fa fa-phone" aria-hidden="true" style={{ fontSize: '40px' }} to='email'></Link>
                     </nav>
                 </div>
             </div>

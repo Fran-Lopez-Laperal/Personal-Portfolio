@@ -1,5 +1,5 @@
 .about-me{
-    background: transparent;
+    background-color: rgb(91, 91, 91);
     min-height: 100vh;
 }
 
@@ -13,8 +13,33 @@
     }
 }
 
+.section-me{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+}
 
+.section-me-check{
+    display: flex;
+    flex-direction: column;
+}
 
+.section-me-check h3{
+    color: #f6e3e3;
+    line-height: 50px;
+}
+
+.section-me-text{
+    color: #cbcaca;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    width: 70%;
+}
 
 .letters-about-section{
     color: black;

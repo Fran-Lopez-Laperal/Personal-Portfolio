@@ -53,6 +53,48 @@ function AboutMe() {
                     </div>
                 </div>
             </section>
+            <section className='section-me'>
+                <p className='section-me-text' style={{marginTop:'50px'}}>
+                    Mi nombre es Francisco López y soy Desarrollador Junior Full Stack.
+                    Soy de Pontevedra , mas concretamente de la localidad de Sanxenxo.
+                </p>
+                <p className='section-me-text'>
+                    En Octubre de 2022 comencé el Bootcamp en Ironhack tras tomar la decisión de querer dar un giro a mi vida profesional.
+                    Mi formación hasta el momento ha estado enfocada en la Actividad Física y el Deporte, pero desde bien pequeño me ha gustado
+                    la tecnología y he tenido la curiosidad de saber cuales eran las tendencias y lo ultimo que se actulizaba.
+                </p>
+                <p className='section-me-text'>
+                    Soy una persona pro activa, enérgica, apasionada con todo lo que hago y me encanta trabajar en equipo.
+                    Al mismo tiempo que estoy en la búsqueda de esa oportunidad que me permita seguir creciendo como desarrollador,
+                    continúo mi formación realizando cursos basados en las tecnologías que he aprendido durante el Bootcamp así como otras que
+                    creo son muy interesantes para mi desarrollo.
+                </p>
+
+
+
+                <section className='section-me-check'>
+                    <h3>
+                        <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
+                        Desarrollo de una aplicación Full Stack MERN
+                    </h3>
+                    <h3 >
+                        <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
+                        Desarrollo Front End con React.
+                    </h3>
+                    <h3 >
+                        <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
+                        Desarrollo y consumo de API´S
+                    </h3>
+
+                </section>
+
+
+                <p className='section-me-text'  style={{marginBottom:'50px'}}>
+                    Actualmente estoy buscando un trabajo como programador web dónde poder seguir aprendiendo y desarrollando habilidades.
+                    Estoy en la búsqueda de mi primera oportunidad como desarrollador, dándole prioridad en esa balanza personal a seguir
+                    aprendiendo y poder coger experiencia trabajando dentro de un equipo.
+                </p>
+            </section>
 
         </div>
     )
