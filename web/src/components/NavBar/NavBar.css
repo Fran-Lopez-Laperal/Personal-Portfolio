@@ -32,6 +32,29 @@
 }
 
 
+
+.nav-bar-item{
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative; 
+}
+
+.nav-bar-item .active:after{
+    background: #46acf5;
+    border-radius: 50%;
+    content: "";
+    height: 0.7rem;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -1.2rem;
+    width: 0.7rem;
+}
+
     
 
 
