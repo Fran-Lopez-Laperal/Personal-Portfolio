@@ -93,7 +93,7 @@ function AboutMe() {
                     Como Junior aprecio mucho la cercanía con los demás integrantes del equipo para así poder aprender con mayor facilidad y agilidad,
                     por lo que valoro cualquier modalidad de jornada.
 
-                    Busco hacerme un hueco en este sector y conseguir los objetivos que son importantes para mi tanto personal como porfesionalmente.
+                    Busco hacerme un hueco en este sector y conseguir los objetivos que son importantes para mi tanto personal como profesionalmente.
                     
                 </p>
             </section>
