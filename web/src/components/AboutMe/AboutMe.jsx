@@ -54,14 +54,14 @@ function AboutMe() {
                 </div>
             </section>
             <section className='section-me'>
-                <p className='section-me-text' style={{marginTop:'50px'}}>
+                <p className='section-me-text' style={{ marginTop: '50px' }}>
                     Mi nombre es Francisco López y soy Desarrollador Junior Full Stack.
-                    Soy de Pontevedra , mas concretamente de la localidad de Sanxenxo.
+                    Soy de Sanxenxo, Pontevedra un precioso pueblo situado en las Rias Baixas.
                 </p>
                 <p className='section-me-text'>
-                    En Octubre de 2022 comencé el Bootcamp en Ironhack tras tomar la decisión de querer dar un giro a mi vida profesional.
+                    En Octubre de 2021 comencé el Bootcamp en Ironhack tras tomar la decisión de querer dar un giro a mi vida profesional.
                     Mi formación hasta el momento ha estado enfocada en la Actividad Física y el Deporte, pero desde bien pequeño me ha gustado
-                    la tecnología y he tenido la curiosidad de saber cuales eran las tendencias y lo ultimo que se actulizaba.
+                    la tecnología y he tenido curiosidad por mantenerme actualizado en este mundo digital que no para de cambiar.
                 </p>
                 <p className='section-me-text'>
                     Soy una persona pro activa, enérgica, apasionada con todo lo que hago y me encanta trabajar en equipo.
@@ -89,10 +89,12 @@ function AboutMe() {
                 </section>
 
 
-                <p className='section-me-text'  style={{marginBottom:'50px'}}>
-                    Actualmente estoy buscando un trabajo como programador web dónde poder seguir aprendiendo y desarrollando habilidades.
-                    Estoy en la búsqueda de mi primera oportunidad como desarrollador, dándole prioridad en esa balanza personal a seguir
-                    aprendiendo y poder coger experiencia trabajando dentro de un equipo.
+                <p className='section-me-text' style={{ marginBottom: '50px' }}>
+                    Como Junior aprecio mucho la cercanía con los demás integrantes del equipo para así poder aprender con mayor facilidad y agilidad,
+                    por lo que valoro cualquier modalidad de jornada.
+
+                    Busco hacerme un hueco en este sector y conseguir los objetivos que son importantes para mi tanto personal como porfesionalmente.
+                    
                 </p>
             </section>
 

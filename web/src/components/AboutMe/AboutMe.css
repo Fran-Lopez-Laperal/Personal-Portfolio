@@ -17,7 +17,7 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 25%;
+    margin: 0px 100px 0px 100px
 }
 
 @media(max-width:1024px){
@@ -30,6 +30,8 @@
 .section-me-check{
     display: flex;
     flex-direction: column;
+    margin: 0px 0px 0px 10px;
+
 }
 
 @media(max-width:1024px){
@@ -79,6 +81,7 @@
     height: 300px;
     object-fit:contain;
     width: 299px;
+    height: 408px;
 }
 
 .container-card img {
