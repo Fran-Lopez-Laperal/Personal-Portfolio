@@ -16,6 +16,7 @@
     color: whitesmoke;
     cursor: pointer;
     display: flex;
+    font-size: 40px;
     font-weight: bold;
     justify-content: space-between;
     margin-left: 30px;
@@ -32,28 +33,26 @@
 }
 
 
-
-.nav-bar-item{
-    align-items: center;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    position: relative; 
+@media(max-width:1024px){
+    .nav-bar{
+        border-radius: 0;
+        bottom: 0px;
+        height:85px ;
+        width: 100%;
+    }
 }
 
-.nav-bar-item .active:after{
-    background: #46acf5;
-    border-radius: 50%;
-    content: "";
-    height: 0.7rem;
-    left: 0;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    top: -1.2rem;
-    width: 0.7rem;
+@media(max-width:1024px){
+    .menu a{
+        font-size: 30px;
+        margin-left:0px;
+        margin-right: 0px;
+        margin-top: 7px;
+    }
+
 }
+
+
 
     
 
