@@ -13,7 +13,7 @@
 }
 
 .menu a {
-    color: whitesmoke;
+    color: rgb(158, 20, 151);
     cursor: pointer;
     display: flex;
     font-size: 40px;
@@ -23,6 +23,19 @@
     margin-right: 30px;
     text-decoration: none;
     padding: 18px;
+    transition: all 0.1s ease;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner a{
+    transition: all 1.5s ease;
+}
+
+.inner:hover a{
+    transform:  scale(1.5);
 }
 
 .menu{
@@ -31,6 +44,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 
 
 @media(max-width:1024px){
