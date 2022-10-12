@@ -42,6 +42,7 @@
     box-shadow: 5px 5px 0px 1.5px rgb(3, 189, 154);
     color: rgb(3, 189, 154);
     height: 55px;
+    margin-bottom: 20px;
     margin-left: 100px;
     outline: none;
     transition: all ease 100ms;
