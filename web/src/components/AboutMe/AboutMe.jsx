@@ -73,18 +73,18 @@ function AboutMe() {
 
 
                 <section className='section-me-check'>
-                    <text>
+                    <p>
                         <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
                         Desarrollo de una aplicación Full Stack MERN
-                    </text>
-                    <text>
+                    </p>
+                    <p>
                         <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
                         Desarrollo Front End con React.
-                    </text>
-                    <text>
+                    </p>
+                    <p>
                         <i className="fa fa-check" style={{ color: '#03fb24', marginRight: '10px' }}></i>
                         Desarrollo y consumo de API´S
-                    </text>
+                    </p>
 
                 </section>
 

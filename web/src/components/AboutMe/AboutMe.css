@@ -42,13 +42,13 @@
     }
 }
 
-.section-me-check text{
+.section-me-check p{
     color: #f6e3e3;
     line-height: 50px;
 }
 
 @media(max-width:1024px){
-    .section-me-check text{
+    .section-me-check p{
         line-height: 30px;
         font-weight: 400px;
    
