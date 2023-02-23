@@ -44,12 +44,12 @@ function Home() {
                                 </button>
                             </div>
 
-                            <a className='btn-media' target='_blank' rel="noreferrer" href="https://github.com/franlopezhack">
+                            <a className='btn-media' target='_blank' rel="noreferrer" href="https://github.com/Fran-Lopez-Laperal">
                                 <button>
                                     <img className='media' src={github} alt={github} />
                                 </button>
                             </a>
-                            <a className='btn-media-1' target='_blank' rel="noreferrer" href='http://www.linkedin.com/in/francisco-josé-lópez-laperal'>
+                            <a className='btn-media-1' target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/francisco-laperal/'>
                                 <button className='media'>
                                     <img src={linkedin} alt={linkedin} />
                                 </button>
