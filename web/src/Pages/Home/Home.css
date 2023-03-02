@@ -23,6 +23,7 @@
     filter: drop-shadow(rgb(3, 189, 154) 0px 0px 0.3rem);
     font-weight: 800;
     margin-right: 10px;
+    height: 100px;
 }
 
 .animation-home ul{

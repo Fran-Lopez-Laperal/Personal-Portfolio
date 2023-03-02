@@ -7,6 +7,7 @@ import { Link } from 'react-scroll'
 import AboutMe from '../../components/AboutMe/AboutMe'
 import Proyects from '../../components/Proyects/Proyects'
 import EmailSend from '../../components/EmailSend/EmailSend'
+import HardSkills from '../../components/HardSkills/HardSkills'
 
 
 
@@ -30,7 +31,7 @@ function Home() {
                                 <li>BackEnd</li>
                                 <li>FullStack</li>
                             </ul>
-                            <p>Development</p>
+                            <p>Developer</p>
 
                         </div>
                         <div className='links-home'>
@@ -66,6 +67,9 @@ function Home() {
                     <div></div>
 
                 </div>
+            </div>
+            <div>
+                <HardSkills/>
             </div>
             <div>
                 <AboutMe />
